@@ -43,4 +43,4 @@ local date = require("lua-date")
 ```lua
 print(date("2013-06-20T10:32:00+02:00"))
 ```
-See [API doc](doc/index.html)
+See [API doc](http://tieske.github.io/date/) (which is a browseable version of [doc/index.html](doc/index.html))
