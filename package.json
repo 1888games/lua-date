@@ -1,0 +1,29 @@
+{
+  "name": "lua-date",
+  "version": "2.1.0",
+  "description": "Lua Date and Time module for Lua 5.x",
+  "main": "init.lua",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wscherphof/lua-date.git"
+  },
+  "keywords": [
+    "lua",
+    "lua-loader",
+    "luarocks",
+    "date",
+    "time"
+  ],
+  "author": "Wouter Scherphof",
+  "contributors": ["Jas Latrix", "Thijs Schreijer"],
+  "license": "LGPL",
+  "bugs": {
+    "url": "https://github.com/wscherphof/lua-date/issues"
+  }
+}
