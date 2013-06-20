@@ -1,6 +1,6 @@
 {
   "name": "lua-date",
-  "version": "2.1.0",
+  "version": "2.1.0-1",
   "description": "Lua Date and Time module for Lua 5.x",
   "main": "init.lua",
   "directories": {
