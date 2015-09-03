@@ -335,7 +335,7 @@
 			repeat -- print(sw:aimchr())
 				if sw("^[tT:]?%s*(%d%d?):",seth) then --print("$Time")
 					_ = sw("^%s*(%d%d?)",setr) and sw("^%s*:%s*(%d%d?)",sets) and sw("^(%.%d+)",adds)
-				elseif sw("^(%d+)[/\%s,-]?%s*") then --print("$Digits")
+				elseif sw("^(%d+)[/\\%s,-]?%s*") then --print("$Digits")
 					x, c = tonumber(sw[1]), len(sw[1])
 					if (x >= 70) or (m and d and (not y)) or (c > 3) then
 						sety( x + ((x >= 100 or c>3)and 0 or 1900) )
